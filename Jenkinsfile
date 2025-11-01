@@ -9,6 +9,7 @@ pipeline{
                 echo "cloning the repository"
                 git branch: "main", git url: "https://github.com/BasavarajGudageri-05/Django-ecommerce-application.git"
             }
+            }
         }
         stage('Docker build'){
             steps{
